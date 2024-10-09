@@ -114,8 +114,9 @@ public class Homepage extends WebElements {
         return new HelpPage(driver);
     }
 
-    public void clickOffersViewAllButton(){
+    public void clickOffersViewAllButton(WebDriver driver){
         logger.info("Clicking on View ALL button under offers");
+        WaitTool.waitForElementVisibleByWebElement(driver,offerViewAll,Integer.parseInt(configProps.getProperty("avgTimeout")));
         offerViewAll.click();
     }
 

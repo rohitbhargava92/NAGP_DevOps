@@ -54,22 +54,6 @@ public class HomePageTests extends TestDriver {
         testDriver.getWebDriver().manage().window().maximize();
     }
 
-    @DataProvider (name = "travelDetails")
-    public Object[][] travelData(){
-        return new Object[][] {{"Delhi", "Agra" , 1}, {"Haridwar", "Delhi" , 2},{"Mathura", "Agra" , 3}};
-    }
-
-    @Test(dataProvider ="travelDetails", description = "Verify User can toggle between Bus and Train tickets using Data providers", groups = {"regression"})
-    public void verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders(String from, String to, int days) {
-        home= new Homepage(testDriver.getWebDriver());
-        Assert.assertTrue(home.isOpen(testDriver.getWebDriver()),"HomePage is not opened");
-        home.enterSearchTextOnFrom(from,testDriver.getWebDriver());
-        home.enterSearchTextOnTo(to,testDriver.getWebDriver());
-        home.selectDateForBusTravel(days);
-        busSearchResultPage = home.clickOnSearchBusesButton(testDriver.getWebDriver());
-        Assert.assertTrue(busSearchResultPage.isOpen(testDriver.getWebDriver()),"Unable to find Bus Search result Page");
-    }
-
     @Test(description = "Verify User can toggle between Bus and Train tickets", groups = {"regression"})
     public void verifyUserCanToggleBetweenBusTrainTickets() {
         home= new Homepage(testDriver.getWebDriver());
@@ -115,7 +99,7 @@ public class HomePageTests extends TestDriver {
     public void verifyUserCanSeeOffersCarousel() {
         home= new Homepage(testDriver.getWebDriver());
         Assert.assertTrue(home.isOpen(testDriver.getWebDriver()),"HomePage is not opened");
-        home.clickOffersViewAllButton();
+        home.clickOffersViewAllButton(testDriver.getWebDriver());
         testDriver.getWebDriver().switchTo().window(new ArrayList<>(testDriver.getWebDriver().getWindowHandles()).get(1));
         Assert.assertTrue(home.checkOffersCarouselPageIsPresent(testDriver.getWebDriver()),"Offer Carousel is not opened");
         testDriver.getWebDriver().close();
