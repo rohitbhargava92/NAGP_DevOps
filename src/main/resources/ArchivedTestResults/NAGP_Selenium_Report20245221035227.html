@@ -1,0 +1,1160 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automated Tests - Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 21, 2024 03:52:27 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">RohitBhargava</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">org.nagp.tests.HomePageTests</a><a class="dropdown-item" href="#">org.nagp.tests.RailwayPageTests</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanCheckHelpSection( Verify User can go to Help Section)</p>
+            <p class="text-sm">
+              <span>3:52:28 pm</span> / <span>00:00:05:787</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanCheckHelpSection( Verify User can go to Help Section)</h5>
+<span class='badge badge-success'>04.21.2024 3:52:28 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:52:34 pm</span>
+<span class='badge badge-default'>00:00:05:787</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:34 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="RohitBhargava"
+          tag="org.nagp.tests.RailwayPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanSearchForLiveTrain( Verify User can search and see live train status)</p>
+            <p class="text-sm">
+              <span>3:52:29 pm</span> / <span>00:00:10:035</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanSearchForLiveTrain( Verify User can search and see live train status)</h5>
+<span class='badge badge-success'>04.21.2024 3:52:29 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:52:39 pm</span>
+<span class='badge badge-default'>00:00:10:035</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.RailwayPageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.RailwayPageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:39 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="3"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanCheckTagline( Verify User can check Tagline of Redbus)</p>
+            <p class="text-sm">
+              <span>3:52:40 pm</span> / <span>00:00:02:073</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">verifyUserCanCheckTagline( Verify User can check Tagline of Redbus)</h5>
+<span class='badge badge-success'>04.21.2024 3:52:40 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:52:42 pm</span>
+<span class='badge badge-default'>00:00:02:073</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:52:42 pm</td>
+        <td>
+          <textarea readonly class="code-block">java.lang.AssertionError: Mismatch in Upper Tagline expected [India's No. 2 Online Bus Ticket Booking Site] but found [India's No. 1 Online Bus Ticket Booking Site]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.nagp.tests.HomePageTests.verifyUserCanCheckTagline(HomePageTests.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</textarea>
+          
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>3:52:42 pm</td>
+        <td>
+          Screenshot
+    <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='C:\Users\rbhargava\IdeaProjects\Moodys-maProjects\ExposureIQAPI\15March2024\goldeneye-qa\Nagp_Selenium\src\main\resources\CurrentTestResults\verifyUserCanCheckTagline_Mismatch_in_Upper_Tagline_20245221035242.png' src="C:\Users\rbhargava\IdeaProjects\Moodys-maProjects\ExposureIQAPI\15March2024\goldeneye-qa\Nagp_Selenium\src\main\resources\CurrentTestResults\verifyUserCanCheckTagline_Mismatch_in_Upper_Tagline_20245221035242.png">
+    
+    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="RohitBhargava"
+          tag="org.nagp.tests.RailwayPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanSeeLiveTrainHistory( Verify User can search and see live train History)</p>
+            <p class="text-sm">
+              <span>3:52:45 pm</span> / <span>00:00:10:311</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanSeeLiveTrainHistory( Verify User can search and see live train History)</h5>
+<span class='badge badge-success'>04.21.2024 3:52:45 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:52:55 pm</span>
+<span class='badge badge-default'>00:00:10:311</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.RailwayPageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.RailwayPageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:55 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanSearchForBusesBetweenTwoPlaces( Verify User can toggle between Bus and Train tickets)</p>
+            <p class="text-sm">
+              <span>3:52:50 pm</span> / <span>00:00:07:107</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanSearchForBusesBetweenTwoPlaces( Verify User can toggle between Bus and Train tickets)</h5>
+<span class='badge badge-success'>04.21.2024 3:52:50 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:52:57 pm</span>
+<span class='badge badge-default'>00:00:07:107</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:52:57 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author="RohitBhargava"
+          tag="org.nagp.tests.RailwayPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanSeeMultipleRailwayOptions( Verify User can see three different sections for Railways)</p>
+            <p class="text-sm">
+              <span>3:53:00 pm</span> / <span>00:00:05:194</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanSeeMultipleRailwayOptions( Verify User can see three different sections for Railways)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:00 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:05 pm</span>
+<span class='badge badge-default'>00:00:05:194</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.RailwayPageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.RailwayPageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:05 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanSeeOffersCarousel( Verify User can see offer carousel)</p>
+            <p class="text-sm">
+              <span>3:53:04 pm</span> / <span>00:00:03:176</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanSeeOffersCarousel( Verify User can see offer carousel)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:04 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:07 pm</span>
+<span class='badge badge-default'>00:00:03:176</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:07 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author="RohitBhargava"
+          tag="org.nagp.tests.RailwayPageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserGetsErrorOnInvalidPNR( Verify User gets error on invalid PNR entered)</p>
+            <p class="text-sm">
+              <span>3:53:10 pm</span> / <span>00:00:06:177</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserGetsErrorOnInvalidPNR( Verify User gets error on invalid PNR entered)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:10 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:16 pm</span>
+<span class='badge badge-default'>00:00:06:177</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.RailwayPageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.RailwayPageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:16 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserCanToggleBetweenBusTrainTickets( Verify User can toggle between Bus and Train tickets)</p>
+            <p class="text-sm">
+              <span>3:53:13 pm</span> / <span>00:00:06:087</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserCanToggleBetweenBusTrainTickets( Verify User can toggle between Bus and Train tickets)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:13 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:19 pm</span>
+<span class='badge badge-default'>00:00:06:087</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:19 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</p>
+            <p class="text-sm">
+              <span>3:53:23 pm</span> / <span>00:00:06:286</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:23 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:30 pm</span>
+<span class='badge badge-default'>00:00:06:286</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:30 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</p>
+            <p class="text-sm">
+              <span>3:53:34 pm</span> / <span>00:00:05:406</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:34 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:39 pm</span>
+<span class='badge badge-default'>00:00:05:406</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:39 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author="RohitBhargava"
+          tag="org.nagp.tests.HomePageTests"
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</p>
+            <p class="text-sm">
+              <span>3:53:43 pm</span> / <span>00:00:04:706</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</h5>
+<span class='badge badge-success'>04.21.2024 3:53:43 pm</span>
+<span class='badge badge-danger'>04.21.2024 3:53:48 pm</span>
+<span class='badge badge-default'>00:00:04:706</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">RohitBhargava</span>
+<span class="badge badge-pill badge-default">org.nagp.tests.HomePageTests</span></div>
+<div class="m-t-10 m-l-5">org.nagp.tests.HomePageTests</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>3:53:48 pm</td>
+        <td>
+          Test passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:52:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifyUserCanCheckTagline( Verify User can check Tagline of Redbus)</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>7</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.nagp.tests.HomePageTests</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.nagp.tests.HomePageTests</h4>
+<span status="pass" class='badge log pass-bg'>7 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>verifyUserCanCheckHelpSection( Verify User can go to Help Section)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:52:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifyUserCanCheckTagline( Verify User can check Tagline of Redbus)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyUserCanSearchForBusesBetweenTwoPlaces( Verify User can toggle between Bus and Train tickets)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>verifyUserCanSeeOffersCarousel( Verify User can see offer carousel)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>verifyUserCanToggleBetweenBusTrainTickets( Verify User can toggle between Bus and Train tickets)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">org.nagp.tests.RailwayPageTests</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.nagp.tests.RailwayPageTests</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>verifyUserCanSearchForLiveTrain( Verify User can search and see live train status)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>verifyUserCanSeeLiveTrainHistory( Verify User can search and see live train History)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>verifyUserCanSeeMultipleRailwayOptions( Verify User can see three different sections for Railways)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>verifyUserGetsErrorOnInvalidPNR( Verify User gets error on invalid PNR entered)</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>11</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">RohitBhargava</p>
+<p class="duration text-sm">12 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RohitBhargava</h4>
+<span status="pass" class='badge log pass-bg'>11 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>verifyUserCanCheckHelpSection( Verify User can go to Help Section)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>verifyUserCanSearchForLiveTrain( Verify User can search and see live train status)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:52:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>verifyUserCanCheckTagline( Verify User can check Tagline of Redbus)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>verifyUserCanSeeLiveTrainHistory( Verify User can search and see live train History)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:52:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyUserCanSearchForBusesBetweenTwoPlaces( Verify User can toggle between Bus and Train tickets)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>verifyUserCanSeeMultipleRailwayOptions( Verify User can see three different sections for Railways)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>verifyUserCanSeeOffersCarousel( Verify User can see offer carousel)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>verifyUserGetsErrorOnInvalidPNR( Verify User gets error on invalid PNR entered)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>verifyUserCanToggleBetweenBusTrainTickets( Verify User can toggle between Bus and Train tickets)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:53:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 21, 2024 03:52:27 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 21, 2024 03:53:52 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>11</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='91%'>
+<b>11</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='8%'><b>1</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='84%'><b>11</b> events passed</small></div>
+<div>
+<small data-tooltip='15%'><b>2</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"verifyUserCanCheckHelpSection( Verify User can go to Help Section)":5.787,"verifyUserCanSearchForLiveTrain( Verify User can search and see live train status)":10.035,"verifyUserCanCheckTagline( Verify User can check Tagline of Redbus)":2.073,"verifyUserCanSeeLiveTrainHistory( Verify User can search and see live train History)":10.311,"verifyUserCanSearchForBusesBetweenTwoPlaces( Verify User can toggle between Bus and Train tickets)":7.107,"verifyUserCanSeeMultipleRailwayOptions( Verify User can see three different sections for Railways)":5.194,"verifyUserCanSeeOffersCarousel( Verify User can see offer carousel)":3.176,"verifyUserGetsErrorOnInvalidPNR( Verify User gets error on invalid PNR entered)":6.177,"verifyUserCanToggleBetweenBusTrainTickets( Verify User can toggle between Bus and Train tickets)":6.087,"verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)":6.286,"verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)":5.406,"verifyUserSearchForBusesBetweenTwoPlacesUsingDataProviders( Verify User can toggle between Bus and Train tickets using Data providers)":4.706
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>RohitBhargava</td>
+<td>11</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>91.667%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>org.nagp.tests.HomePageTests</td>
+<td>7</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>87.5%</td>
+</tr>
+<tr>
+<td>org.nagp.tests.RailwayPageTests</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 11,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 11,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="NAGP Full UI Tests" parallel="classes" thread-count="3">
+  <listeners>
+    <listener class-name="org.nagp.listeners.MyTransformer"></listener>
+    <listener class-name="org.nagp.listeners.TestListener"></listener>
+  </listeners>
+  <test name="Regression Tests" thread-count="3">
+    <groups>
+      <run>
+        <include name="regression"></include>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.nagp.tests.HomePageTests"></class>
+      <class name="org.nagp.tests.RailwayPageTests"></class>
+    </classes>
+  </test>
+</suite>

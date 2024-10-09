@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testdata>
+    <APP_localhost>
+        <HomePageTests>
+            <verifyUserCanSearchForBusesBetweenTwoPlaces>
+                <busFrom>Delhi</busFrom>
+                <busTo>Agra</busTo>
+            </verifyUserCanSearchForBusesBetweenTwoPlaces>
+        </HomePageTests>
+        <RailwayPageTests>
+            <verifyUserGetsErrorOnInvalidPNR>
+                <pnr>1234567891</pnr>
+                <errorMessage>Incorrect PNR Number</errorMessage>
+            </verifyUserGetsErrorOnInvalidPNR>
+            <verifyUserCanSearchForLiveTrain>
+                <trainNumber>14235</trainNumber>
+                <errorMessage>Incorrect PNR Number</errorMessage>
+            </verifyUserCanSearchForLiveTrain>
+        </RailwayPageTests>
+    </APP_localhost>
+</testdata>
