@@ -41,10 +41,12 @@ pipeline {
         success {
             echo 'Build Sucess. Creating Junit Report'
             junit '**/target/surefire-reports/TEST-*.xml'
+            testNG()
         }
         failure {
             echo 'Build Failed. Creating Junit Report'
             junit '**/target/surefire-reports/TEST-*.xml'
+            testNG()
         }
     }
 }
